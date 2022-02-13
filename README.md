@@ -94,3 +94,14 @@ nginx:your-name`
 
 `curl -i 127.0.0.1:8901`  
 INPUT   `Welcome to the CUSTOM NGINX CONFIG FILE`
+
+## PUSH Docker IMAGE in DockerHUB
+1. Docker push using that same tag
+2. Example:
+
+- `docker tag your-tag yourRepositoryName/yourImageName:tag`
+- `docker push yourRepositoryName/yourImageName:tag`
+
+## DONE!
+### URL myIMAGE on DOCKER-HUB  
+### https://hub.docker.com/r/stovart397/nginx-custom
